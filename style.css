@@ -1,0 +1,300 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e72e3f;
+  color: white;
+}
+
+header {
+  padding: 20px 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffb3b3;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: white;
+  color: #e72e3f;
+  border: none;
+  padding: 12px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #ffb3b3;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info-section {
+  background-color: white;
+  color: black;
+  padding: 40px 80px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.info-section .container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.info-section .skills,
+.info-section .social {
+  flex: 1;
+}
+
+.info-section h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.info-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-section ul li {
+  margin-bottom: 8px;
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e72e3f;
+  color: white;
+}
+
+header {
+  padding: 20px 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #ffb3b3;
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: white;
+  color: #e72e3f;
+  border: none;
+  padding: 12px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #ffb3b3;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Info Section */
+.info-section {
+  background-color: white;
+  color: black;
+  padding: 40px 80px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.info-section .container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.info-section h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.info-section ul {
+  list-style: none;
+}
+
+.info-section ul li {
+  margin-bottom: 8px;
+}
+
+/* Hire Me Page */
+.page-section {
+  padding: 50px 80px;
+  background: white;
+  color: black;
+}
+
+.hire-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.hire-form input,
+.hire-form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.hire-form button {
+  align-self: flex-start;
+}
